@@ -1,0 +1,98 @@
+header{
+    /*esta posição <relative> ela estabiliza o header*/
+    position: relative;
+    background-image: linear-gradient(rgb(120, 39, 39),rgb(21, 21, 61));
+}
+
+aside{
+    color: rgb(168, 163, 163);
+    margin-top: 0%;
+    text-align: start;
+}
+
+body{
+    background-color: rgb(22, 22, 53);
+    text-align: center;
+}
+.logo{
+    width: 15%;
+    border-radius: 90px;
+    margin-top: 20px;
+
+}
+h1{
+    color: rgb(168, 163, 163);
+    margin-top:0% ;
+}
+.session{
+    border: solid rgb(51, 51, 73);
+    height: 100px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px ;
+}
+h3{
+    color: rgb(168, 163, 163);
+    margin-bottom: 2px
+}
+.hora{
+   border: 2px solid;
+   width: 40px;
+   padding: 3px;
+   color: rgb(61, 64, 67);;
+   background-color:rgb(168, 163, 163);
+   margin-left: auto;
+   margin-right: auto; 
+}
+h4{
+    color: rgb(168, 163, 163);
+    margin-bottom: 3px;
+    
+}
+.span{
+    background-color:rgb(168, 163, 163) ;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+p{
+    color:rgb(168, 163, 163)  ;
+}
+.foto_jogo1{
+    height: 20px;
+}
+nav{
+    text-align: start;
+    font-size: 13px;
+    /*esta posição <absolute> ela é filha da posição <relative> do nosso header*/
+    position: absolute;
+    top: 0;
+    margin-left: 20px
+}
+
+.barra{
+    background-color: rgb(68, 64, 70);
+    padding: 9px;
+}
+.barra a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 18px;
+    color:rgb(168, 163, 163)  ; 
+}
+ a:hover,.dropdown:hover{
+    background-color: red;
+    padding: 9px;
+    color: black;
+    border-radius: 15px;
+    border-top: 10px;
+}
+li {
+    display: inline;
+}
+.session:hover{
+    background-color:  rgb(15, 11, 78);
+    padding: 5px;
+}
